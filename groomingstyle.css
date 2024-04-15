@@ -1,0 +1,394 @@
+/* Global Style */
+:root {
+    font-size: 16px;
+    --blue: #57C4E5;
+    --yellow: #FFBF46;
+    --green: #59A96A;
+    --pink: #F97068;
+    --textColor: #212738;
+}
+
+body {
+    background-color: white;
+    color: var(--textColor);
+    font-family: 'Asap Condensed', sans-serif;
+    margin: 0px;
+}
+
+a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--blue);
+}
+
+h1 {
+    font-size: 3rem;
+    margin:auto;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin:auto;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin:auto;
+}
+
+h5 {
+    font-size: 1rem;
+    margin:auto;
+}
+
+p {
+    font-size: 1.25rem;
+    margin: auto;
+    line-height: 2rem;
+}
+
+.btn {
+    background-color: var(--green);
+    color: var(--textColor);
+    padding: .5rem 2rem;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* Nav Style*/
+nav {
+    width: calc(100%);
+    background-color: var(--textColor);
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+
+nav img {
+    height: 35px;
+}
+
+nav ul {
+    display: flex;
+    gap: 4rem;
+    color: var(--blue);
+    list-style-type: none;
+    font-weight: lighter;
+    padding: 0px 300px;
+}
+
+/* Body */
+.title {
+    margin-top: 130px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.three-col {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.three-col div img {
+    border-radius: 20px;
+}
+.two-col {
+    display: flex;
+    margin-left: 110px;
+}
+
+.two-col .para {
+    margin-right: 200px;
+    font-style: italic;
+    margin-bottom: 100px;
+}
+
+.bird-sizes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bird-sizes .big {
+    background-color: var(--yellow);
+    border-radius: 20px;
+    padding: 20px;
+    width: 500px;
+}
+
+.bird-sizes h2 {
+    font-weight: 500;
+}
+
+.bird-sizes .big h3 {
+    font-style: italic;
+    font-weight: 300;
+}
+
+.bird-sizes .small {
+    background-color: var(--yellow);
+    border-radius: 20px;
+    padding: 20px;
+    width: 500px;
+}
+
+.bird-sizes .small h3 {
+    font-style: italic;
+    font-weight: 300;
+}
+
+.full {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.full-service h2 {
+    font-weight: 500;
+}
+
+.full h3 {
+    font-weight: 400;
+}
+
+.full-service {
+    display: flex;
+    justify-content: space-around;
+}
+
+.full-service .big {
+    background-color: var(--pink);
+    border-radius: 20px;
+    padding: 40px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.full-service .big h3 {
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.full-service .small {
+    background-color: var(--blue);
+    border-radius: 20px;
+    padding: 40px;
+    margin-left: 50px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.full-service .small h3 {
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.special {
+    background-color: var(--yellow);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.blow-service h2 {
+    font-weight: 500;
+}
+
+.special .blow h3 {
+    font-weight: 400;
+}
+
+.special .blow-service {
+    display: flex;
+    justify-content: space-around;
+}
+
+.special .blow-service .big {
+    background-color: var(--pink);
+    border-radius: 20px;
+    width: 500px;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.special .blow-service .big h3 {
+    font-weight: 300;
+}
+
+.special .blow-service .small {
+    background-color: var(--blue);
+    border-radius: 20px;
+    width: 500px;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.special .blow-service .small h3 {
+    font-weight: 300;
+}
+
+.nail {
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.nail-service h2 {
+    font-weight: 500;
+}
+
+.nail h3 {
+    font-weight: 400;
+}
+
+.nail-service {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nail-service .big {
+    background-color: var(--pink);
+    border-radius: 20px;
+    padding: 40px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.nail-service .big h3 {
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.nail-service .small {
+    background-color: var(--blue);
+    border-radius: 20px;
+    padding: 40px;
+    margin-left: 50px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.nail-service .small h3 {
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.beak {
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.beak h3 {
+    font-weight: 400;
+}
+
+.beak-service {
+    display: flex;
+    justify-content: space-around;
+}
+
+.beak-service h2 {
+    font-weight: 500;
+}
+
+.beak-service .big {
+    background-color: var(--pink);
+    border-radius: 20px;
+    padding: 40px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.beak-service .big h3 {
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.beak-service .small {
+    background-color: var(--blue);
+    border-radius: 20px;
+    padding: 40px;
+    margin-left: 50px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.beak-service .small h3 {
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.wing {
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.wing h3 {
+    font-weight: 400;
+}
+
+.wing-service {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wing-service h2 {
+    font-weight: 500;
+}
+
+.wing-service .big {
+    background-color: var(--pink);
+    border-radius: 20px;
+    padding: 40px;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.wing-service .big h3 {
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.wing-service .small {
+    background-color: var(--blue);
+    border-radius: 20px;
+    padding: 40px;
+    margin-left: 50px;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.wing-service .small h3 {
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.foot {
+    background-color: var(--textColor);
+    color: var(--blue);
+    display: flex;
+    }
+    
+    .foot div {
+        justify-content: space-between;
+        margin: 30px;
+    }
+    
+    .foot .contactfoot {
+        margin-right: 800px;
+    }

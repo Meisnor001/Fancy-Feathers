@@ -1,0 +1,157 @@
+/* Global Style */
+:root {
+    font-size: 16px;
+    --blue: #57C4E5;
+    --yellow: #FFBF46;
+    --green: #59A96A;
+    --pink: #F97068;
+    --textColor: #212738;
+}
+
+body {
+    background-color: white;
+    color: var(--textColor);
+    font-family: 'Asap Condensed', sans-serif;
+    margin: 0px;
+}
+
+a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--blue);
+}
+
+h1 {
+    font-size: 3rem;
+    margin:auto;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin:auto;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin:auto;
+}
+
+h5 {
+    font-size: 1rem;
+    margin:auto;
+}
+
+p {
+    font-size: 1.25rem;
+    margin: auto;
+    line-height: 2rem;
+}
+
+.btn {
+    background-color: var(--green);
+    color: var(--textColor);
+    padding: .5rem 2rem;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* Nav Style*/
+nav {
+    width: calc(100%);
+    background-color: var(--textColor);
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+
+nav img {
+    height: 35px;
+}
+
+nav ul {
+    display: flex;
+    gap: 4rem;
+    color: var(--blue);
+    list-style-type: none;
+    font-weight: lighter;
+    padding: 0px 300px;
+}
+
+/* Essentials */
+
+.essentials {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 150px;
+    margin-top: 120px;
+}
+
+.essentials .title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.essentials h3 {
+    font-weight: lighter;
+}
+
+.essentials h2 {
+    color: var(--pink);
+    margin-bottom: 20px;
+}
+
+.essentials img {
+    height: 15rem;
+}
+
+.essentials .two-row .one {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+
+.essentials .two-row .one div img {
+    border-radius: 20px;
+}
+
+.essentials .two-row .two {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.essentials .two-row .two div img {
+    border-radius: 20px;
+}
+
+.essentials .two-row .one div p {
+    text-align: center;
+}
+
+.essentials .two-row .two div p {
+    text-align: center;
+}
+
+/* footer */
+.foot {
+    background-color: var(--textColor);
+    color: var(--blue);
+    display: flex;
+    }
+    
+    .foot div {
+        justify-content: space-between;
+        margin: 30px;
+    }
+    
+    .foot .contactfoot {
+        margin-right: 800px;
+    }
+    

@@ -1,0 +1,441 @@
+/* Global Style */
+:root {
+    font-size: 16px;
+    --blue: #57C4E5;
+    --yellow: #FFBF46;
+    --green: #59A96A;
+    --pink: #F97068;
+    --textColor: #212738;
+}
+
+body {
+    background-color: white;
+    color: var(--textColor);
+    font-family: 'Asap Condensed', sans-serif;
+    margin: 0px;
+}
+
+a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--blue);
+}
+
+h1 {
+    font-size: 3rem;
+    margin:auto;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin:auto;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin:auto;
+}
+
+h5 {
+    font-size: 1rem;
+    margin:auto;
+}
+
+p {
+    font-size: 1.25rem;
+    margin: auto;
+    line-height: 2rem;
+}
+
+.btn {
+    background-color: var(--green);
+    color: var(--textColor);
+    padding: .5rem 2rem;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* Nav Style*/
+nav {
+    width: calc(100%);
+    background-color: var(--textColor);
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+
+nav img {
+    height: 35px;
+}
+
+nav ul {
+    display: flex;
+    gap: 4rem;
+    color: var(--blue);
+    list-style-type: none;
+    font-weight: lighter;
+    padding: 0px 300px;
+}
+
+/* Hero Image */
+
+#heroimage img {
+    margin-top: 300px;
+    height: 20vh;
+}
+
+#heroimage {
+    
+    height: 100vh;
+    background-image: url(assets/hero\ image.png);
+    background-size: cover;
+    background-position: top;
+    color: var(--yellow);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#heroimage h1 {
+    margin-top: 80px;
+    font-size: 2rem;
+}
+
+/* Grooming */
+
+.grooming{
+    margin-left: 20px;
+    margin-top: 150px;
+    background-color: var(--yellow);
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-bottom: 150px;
+}
+
+.grooming .feathers img{
+    height: 35rem;
+    margin-left: 20px;
+}
+
+.grooming .two-col {
+    display: flex;
+}
+
+.grooming .text {
+    background-color: var(--blue);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.grooming .beak img {
+    height: 16.75rem;
+    margin-left: 70px;
+}
+
+.grooming .button {
+    display: flex;
+}
+
+.grooming .button .btn {
+    margin-left: 200px;
+}
+
+.grooming div h3 {
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+/* Boarding */
+.board {
+    margin-left: 20px;
+    margin-bottom: 150px;
+}
+
+.board h3 {
+    font-weight: lighter;
+}
+
+.board h2 {
+    margin-bottom: 20px;
+    color: var(--pink);
+}
+
+.board .three-col {
+    display: flex;
+    align-items: center;
+}
+
+.board img {
+    height: 30rem;
+    border-radius: 20px;
+}
+
+.board .three-col .company {
+    background-color: var(--blue);
+    height: 25rem;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.board .three-col .company p {
+    margin: 2rem;
+}
+
+.board .three-col .experience {
+    background-color: var(--yellow);
+    height: 25rem;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.board .three-col .experience p {
+    margin: 2rem;
+}
+
+.board .btn {
+  margin-left: 720px;
+  margin-top: 20px;
+}
+
+/* Essentials */
+
+.essentials {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 150px;
+}
+
+.essentials h3 {
+    font-weight: lighter;
+}
+
+.essentials h2 {
+    color: var(--pink);
+    margin-bottom: 20px;
+}
+
+.essentials img {
+    height: 15rem;
+    border-radius: 20px;
+}
+
+.essentials .two-row .one {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+
+.essentials .two-row .two {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.essentials .two-row .one div p {
+    text-align: center;
+}
+
+.essentials .two-row .two div p {
+    text-align: center;
+}
+
+/* Birds For Sale */
+
+.sale {
+    margin-bottom: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sale h3 {
+    font-weight: lighter;
+}
+
+.sale h2 {
+    color: var(--pink);
+    margin-bottom: 30px;
+}
+
+.sale h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sale .three-birds {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.sale .three-birds img {
+    height: 20rem;
+    border-radius: 20px;
+}
+
+.sale .three-birds div h3 {
+    text-align: center;
+}
+
+.sale .btn {
+    margin-left: 725px;
+}
+
+.sale .three-birds div {
+    margin-bottom: 20px;
+}
+
+/* Contact Us */
+
+.contactus .btn {
+    background-color: white;
+}
+
+.contactus {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.contactus .info {
+    font-size: 1.5rem;
+}
+
+.contacts .title {
+    color: var(--pink);
+    margin-bottom: 20px;
+}
+
+.contacts {
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.contacts .hours {
+    display: flex;
+}
+
+.contacts .hours .map {
+    margin-right: 100px;
+    display: inline;
+}
+
+.contacts .hours .map img {
+    height: 450px;
+    width: 825px;
+}
+
+.contacts .hours .days div {
+    display: flex;
+    margin: 0px;
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+
+.contacts .hours .days {
+    display: inline;
+}
+
+.contacts .hours .map p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contacts .hours .days .monday h5 {
+    margin: 0px;
+    padding-right: 500px;
+}
+
+.contacts .hours .days .tuesday h5 {
+    margin: 0px;
+}
+
+.contacts .hours .days .wednesday h5 {
+    margin: 0px;
+}
+
+.contacts .hours .days .thursday h5 {
+    margin: 0px;
+}
+
+.contacts .hours .days .friday h5 {
+    margin: 0px;
+}
+
+.contacts .hours .days .saturday h5 {
+    margin: 0px;
+}
+
+.contacts .hours .days .sunday h5 {
+    margin: 0px;
+}
+
+.contacts .hours .days .monday p {
+    margin: 0px;
+}
+
+.contacts .hours .days .tuesday p {
+    margin: 0px;
+}
+
+.contacts .hours .days .wednesday p {
+    margin: 0px;
+}
+
+.contacts .hours .days .thursday p {
+    margin: 0px;
+}
+
+.contacts .hours .days .friday p {
+    margin: 0px;
+}
+
+.contacts .hours .days .saturday p {
+    margin: 0px;
+}
+
+.contacts .hours .days .sunday p {
+    margin: 0px;
+}
+
+.contacts .hours .days div  {
+    justify-content: space-between;
+}
+
+/* footer */
+.foot {
+background-color: var(--textColor);
+color: var(--blue);
+display: flex;
+}
+
+.foot div {
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.foot .contactfoot {
+    margin-right: 800px;
+}
