@@ -179,3 +179,98 @@ nav ul {
     .foot .contactfoot {
         margin-right: 800px;
     }
+
+    @media screen and (max-width: 980px) {
+        nav#mobileMenu {
+            padding: 10px 15px;
+            display: flex;
+            width: calc(100% - 30px);
+        }
+    
+        h1 {
+            font-size: 3rem ;
+        }
+    
+        h2 {
+            font-size: 3rem;
+        }
+    
+        a {
+            font-size: 1.5rem;
+        }
+    
+        nav ul {
+            gap: 2rem;
+            padding-left: 45px;
+            padding-right: 0px;
+        }
+    
+        nav ul a {
+            font-size: 1.25rem;
+        }
+
+        .title h1 {
+            font-size: 4rem;
+        }
+
+        .two-col {
+            display: inline-block;
+        }
+
+        .two-col .left {
+            margin-left:100px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+
+        .two-col .right {
+            margin-left: 0px;
+        }
+
+        .two-col .right .bottom img {
+            margin-left: 60px;
+            margin-right: 60px;
+        }
+
+        .amenities {
+            display: inline-block;
+            align-items: center;
+        }
+
+        .amenities .left {
+            width: auto;
+        }
+
+        .amenities .left .imgs img {
+            margin-left: 55px;
+            margin-right: 55px;
+        }
+
+        .amenities .right img {
+            margin-left: 60px;
+            margin-top: 50px;
+        }
+
+        .gallery img {
+            max-width: 164px;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        .shop {
+            margin-left: 810px;
+        }
+
+
+        .foot {
+            justify-content: space-between;
+        }
+    
+        .foot .contactfoot {
+            margin-right: 0px;
+        }
+
+        .foot p {
+            font-size: 1.3rem;
+        }
+    }

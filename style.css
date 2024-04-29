@@ -149,7 +149,7 @@ nav ul {
 }
 
 .grooming .button .btn {
-    margin-left: 200px;
+    margin-left: 400px;
 }
 
 .grooming div h3 {
@@ -161,6 +161,7 @@ nav ul {
 .board {
     margin-left: 20px;
     margin-bottom: 150px;
+    margin-right: 20px;
 }
 
 .board h3 {
@@ -211,8 +212,9 @@ nav ul {
 }
 
 .board .btn {
-  margin-left: 720px;
-  margin-top: 20px;
+    display: block;
+    margin: auto;
+    width: max-content;
 }
 
 /* Essentials */
@@ -285,12 +287,10 @@ nav ul {
 .sale .three-birds {
     display: flex;
     justify-content: space-between;
-    margin-left: 80px;
-    margin-right: 80px;
+    gap: 20px;
 }
 
 .sale .three-birds img {
-    height: 20rem;
     border-radius: 20px;
 }
 
@@ -299,7 +299,9 @@ nav ul {
 }
 
 .sale .btn {
-    margin-left: 725px;
+    display: block;
+    margin: auto;
+    width: max-content;
 }
 
 .sale .three-birds div {
@@ -337,7 +339,7 @@ nav ul {
 }
 
 .contacts .hours .map {
-    margin-right: 100px;
+    margin-right: 400px;
     display: inline;
 }
 
@@ -439,3 +441,183 @@ display: flex;
 .foot .contactfoot {
     margin-right: 800px;
 }
+
+/*Mobile Responsive*/
+
+@media screen and (max-width: 980px) {
+    nav#mobileMenu {
+        padding: 10px 15px;
+        display: flex;
+        width: calc(100% - 30px);
+    }
+
+    h1 {
+        font-size: 3rem ;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    a {
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        gap: 2rem;
+        padding-left: 45px;
+        padding-right: 0px;
+    }
+
+    nav ul a {
+        font-size: 1.25rem;
+    }
+
+    #heroimage {
+        background-position:initial;
+        height: 97vh;
+        margin-top: 70px;
+    }
+
+    #heroimage img {
+        max-width: 850px;
+    }
+
+    .grooming {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+
+    .grooming .two-col .text {
+        margin-top: 0px;
+    }
+
+    .grooming .two-col .feathers img {
+        max-width: 350px;
+        max-height: 350px;
+        margin-top: 150px;
+    }
+
+    .grooming .two-col .button .beak img{
+        max-width: 140px;
+        max-height: 140px;
+        margin-right: 100px;
+    }
+
+    .grooming .two-col .text p{
+        font-size: .75rem;
+    }
+
+    .grooming .two-col .text {
+        margin-left: 30px;
+        margin-right: 15px;
+    }
+
+    .grooming .two-col .button .beak img {
+        display: none;
+    }
+
+    .grooming .two-col .button div .btn {
+        margin-left: 185px;
+    }
+
+    .board {
+        margin-bottom: 200px;
+    }
+
+    .board div img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .board .three-col p {
+        font-size: 1.5rem;
+    }
+
+    .board .three-col .company {
+        height: 50rem;
+        width: 25rem;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .board .three-col .experience {
+        height: 50rem;
+        width: 25rem;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .essentials {
+        margin-bottom: 200px;
+    }
+
+    .essentials img {
+        height: 100%;
+    }
+
+    .essentials .two-row .one {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 75px;
+        margin-bottom: 75px;
+    }
+
+    .essentials .two-row p {
+        font-size: 2.5rem;
+    }
+
+    .essentials .two-row .two {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 75px;
+    }
+
+    .sale {
+        margin-bottom: 200px;
+    }
+
+    .sale .three-birds {
+        margin-left: 0px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contacts .contactus div p {
+        font-size: .75rem;
+    }
+
+    .contacts .contactus div .btn {
+        font-size: 1.25rem;
+    }
+
+    .contacts .hours .map {
+        margin-right: 60px;
+    }
+
+    .contacts .hours .map img {
+        max-width: 500px;
+        max-height: 275px;
+        margin-top: 100px;
+    }
+
+    .contacts .hours .map p {
+        font-size: .75rem;
+    }
+
+    .contacts .hours .days .monday h5 {
+        margin: 0px;
+        padding-right: 175px;
+    }
+
+    .foot {
+        justify-content: space-between;
+    }
+
+    .foot .contactfoot {
+        margin-right: 0px;
+    }
+
+
+}
+

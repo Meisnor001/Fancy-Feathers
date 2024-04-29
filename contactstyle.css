@@ -112,7 +112,7 @@ nav ul {
 }
 
 .contacts .hours .map {
-    margin-right: 100px;
+    margin-right: 450px;
     display: inline;
 }
 
@@ -213,4 +213,91 @@ display: flex;
 
 .foot .contactfoot {
     margin-right: 800px;
+}
+
+@media screen and (max-width: 980px) {
+    nav#mobileMenu {
+        padding: 10px 15px;
+        display: flex;
+        width: calc(100% - 30px);
+    }
+
+    h1 {
+        font-size: 3rem ;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    a {
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        gap: 2rem;
+        padding-left: 45px;
+        padding-right: 0px;
+    }
+
+    nav ul a {
+        font-size: 1.25rem;
+    }
+
+    .contacts .contactus div p {
+        font-size: .75rem;
+    }
+
+    .contacts .contactus div .btn {
+        font-size: 1.25rem;
+    }
+
+    .contacts .hours {
+        display: inline;
+        flex-wrap: wrap;
+    }
+
+    .contacts .hours .map {
+        margin-right: 60px;
+    }
+
+    .contacts .hours .map img {
+        max-width: 500px;
+        max-height: 275px;
+        margin-top: 100px;
+    }
+
+    iframe {
+        margin-left: 220px;
+        margin-top: 50px;
+    }
+
+    .contacts .hours .map p {
+        font-size: .75rem;
+        margin-bottom: 50px;
+    }
+
+    .contacts .hours .days div {
+        padding-left: 40px;
+        padding-right: 50px;
+        padding-top: 30px;
+    }
+
+    .contacts .hours .days h5 {
+        font-size: 1.75rem;
+    }
+
+    .contacts .hours .days .monday h5 {
+        margin: 0px;
+        padding-right: 175px;
+    }
+
+    .foot {
+        justify-content: space-between;
+        margin-top: 175px;
+    }
+
+    .foot .contactfoot {
+        margin-right: 0px;
+    }
 }

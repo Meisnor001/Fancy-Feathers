@@ -392,3 +392,133 @@ nav ul {
     .foot .contactfoot {
         margin-right: 800px;
     }
+
+    @media screen and (max-width: 980px) {
+        nav#mobileMenu {
+            padding: 10px 15px;
+            display: flex;
+            width: calc(100% - 30px);
+        }
+    
+        h1 {
+            font-size: 3rem ;
+        }
+    
+        h2 {
+            font-size: 3rem;
+        }
+    
+        a {
+            font-size: 1.5rem;
+        }
+    
+        nav ul {
+            gap: 2rem;
+            padding-left: 45px;
+            padding-right: 0px;
+        }
+    
+        nav ul a {
+            font-size: 1.25rem;
+        }
+
+        .three-col {
+            gap: 20px;
+            padding: 20px;
+            margin-top: 65px;
+            margin-bottom: 25px;
+        }
+
+        .three-col img {
+            width: 100%;
+        }
+
+        .two-col h3 {
+            font-size: .75rem;
+        }
+
+        .two-col {
+            display: inline;
+        }
+
+        .two-col .para {
+            margin-right: 0px;
+            margin-left: 50px;
+            margin-bottom: 50px;
+        }
+
+        .two-col .para h3{
+            font-size: .5rem;
+            margin-right: 20px;
+        }
+
+        .two-col .btn {
+            margin-left: 415px;
+            margin-bottom: 75px;
+        }
+
+        .bird-sizes .big{
+            width: 40%;
+        }
+
+        .bird-sizes .small {
+            width: 40%;
+        }
+
+        .full-service .big{
+            width: 38%;
+        }
+
+        .full-service .small {
+            width: 38%;
+            margin-left: 0px;
+        }
+
+        .special .blow-service .big{
+            width: 40%;
+        }
+
+        .special .blow-service .small {
+            width: 40%;
+            margin-left: 0px;
+        }
+
+        .nail-service .big{
+            width: 38%;
+        }
+
+        .nail-service .small {
+            width: 38%;
+            margin-left: 0px;
+        }
+
+        .beak-service .big{
+            width: 38%;
+        }
+
+        .beak-service .small {
+            width: 38%;
+            margin-left: 0px;
+        }
+
+        .wing-service .big{
+            width: 38%;
+        }
+
+        .wing-service .small {
+            width: 38%;
+            margin-left: 0px;
+        }
+
+        .foot {
+            justify-content: space-between;
+        }
+    
+        .foot .contactfoot {
+            margin-right: 0px;
+        }
+
+        .foot p {
+            font-size: .5rem;
+        }
+    }
