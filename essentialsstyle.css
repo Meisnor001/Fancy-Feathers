@@ -154,4 +154,80 @@ nav ul {
     .foot .contactfoot {
         margin-right: 800px;
     }
+
+    @media screen and (max-width: 980px) {
+        nav#mobileMenu {
+            padding: 10px 15px;
+            display: flex;
+            width: calc(100% - 30px);
+        }
+    
+        h1 {
+            font-size: 3rem ;
+        }
+    
+        h2 {
+            font-size: 3rem;
+        }
+    
+        a {
+            font-size: 1.5rem;
+        }
+    
+        nav ul {
+            gap: 2rem;
+            padding-left: 45px;
+            padding-right: 0px;
+        }
+    
+        nav ul a {
+            font-size: 1.25rem;
+        }
+
+        .essentials {
+            margin-bottom: 200px;
+        }
+
+        .essentials .title h1 {
+            font-size: 5rem;
+        }
+    
+        .essentials img {
+            height: 100%;
+        }
+
+        .essentials .two-row .one div {
+            margin-bottom: 75px;
+        }
+
+        .essentials .two-row .two div {
+            margin-bottom: 75px;
+        }
+    
+        .essentials .two-row .one {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 75px;
+            margin-bottom: 75px;
+        }
+    
+        .essentials .two-row p {
+            font-size: 2.5rem;
+        }
+    
+        .essentials .two-row .two {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 75px;
+        }
+
+        .foot {
+            justify-content: space-between;
+            margin-top: 175px;
+        }
+    
+        .foot .contactfoot {
+            margin-right: 0px;
+        }
+    }
     

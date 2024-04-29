@@ -147,10 +147,10 @@ nav ul {
 .angel .left .name h3 {
     font-weight: 500;
     margin: 0px;
-    margin-left: 770px;
     margin-top: 10px;
     margin-bottom: 50px;
     margin-right: 100px;
+    justify-content: flex-end;
 }
 
 .angel .left div p{
@@ -241,10 +241,10 @@ nav ul {
 .zazu .left .name h3 {
     font-weight: 500;
     margin: 0px;
-    margin-left: 770px;
     margin-top: 10px;
     margin-bottom: 50px;
     margin-right: 100px;
+    justify-content: flex-end;
 }
 
 .zazu .left div p{
@@ -335,10 +335,10 @@ nav ul {
 .kiwi .left .name h3 {
     font-weight: 500;
     margin: 0px;
-    margin-left: 770px;
     margin-top: 10px;
     margin-bottom: 50px;
     margin-right: 100px;
+    justify-content: flex-end;
 }
 
 .kiwi .left div p{
@@ -429,10 +429,10 @@ nav ul {
 .opal .left .name h3 {
     font-weight: 500;
     margin: 0px;
-    margin-left: 770px;
     margin-top: 10px;
     margin-bottom: 50px;
     margin-right: 100px;
+    justify-content: flex-end;
 }
 
 .opal .left div p{
@@ -523,10 +523,10 @@ nav ul {
 .caly .left .name h3 {
     font-weight: 500;
     margin: 0px;
-    margin-left: 770px;
     margin-top: 10px;
     margin-bottom: 50px;
     margin-right: 100px;
+    justify-content: flex-end;
 }
 
 .caly .left div p{
@@ -617,10 +617,10 @@ nav ul {
 .donut .left .name h3 {
     font-weight: 500;
     margin: 0px;
-    margin-left: 770px;
     margin-top: 10px;
     margin-bottom: 50px;
     margin-right: 100px;
+    justify-content: flex-end;
 }
 
 .donut .left div p{
@@ -629,7 +629,6 @@ nav ul {
 
 .donut .left .name h2 {
     margin: 0px;
-    margin-right: 50px;
 }
 
 .donut .left .adj {
@@ -649,17 +648,6 @@ nav ul {
     border-radius: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* footer */
 .foot {
     background-color: var(--textColor);
@@ -674,4 +662,279 @@ nav ul {
     
     .foot .contactfoot {
         margin-right: 800px;
+    }
+
+    @media screen and (max-width: 980px) {
+        nav#mobileMenu {
+            padding: 10px 15px;
+            display: flex;
+            width: calc(100% - 30px);
+        }
+    
+        h1 {
+            font-size: 3rem ;
+        }
+    
+        h2 {
+            font-size: 3rem;
+        }
+    
+        a {
+            font-size: 2rem;
+        }
+
+        .daisy .right .adj {
+            display: inline;
+        }
+
+        .daisy .right .adj h5 {
+            font-size: .75rem;
+            margin-top: 75px;
+        }
+
+        .daisy .right .adj .btn {
+            margin-top: 50px;
+        }
+
+        .daisy div img {
+            margin-top: 70px;
+        }
+
+
+
+        .angel .left .adj {
+            display: inline;
+        }
+
+        .angel .left .adj h5 {
+            font-size: .75rem;
+            margin-top: -175px;
+            margin-bottom: 100px;
+
+        }
+
+        .angel .left .adj .btn {
+            margin-top: 200px;
+        }
+
+        .angel div img {
+            margin-top: 70px;
+        }
+
+
+
+        .hedwig .right .adj {
+            display: inline;
+        }
+
+        .hedwig .right .adj h5 {
+            font-size: .75rem;
+            margin-top: 75px;
+        }
+
+        .hedwig .right .adj .btn {
+            margin-top: 50px;
+        }
+
+        .hedwig div img {
+            margin-top: 70px;
+        }
+
+
+
+        .zazu .left .adj {
+            display: inline;
+        }
+
+        .zazu .left .adj h5 {
+            font-size: .75rem;
+            margin-top: -175px;
+            margin-bottom: 100px;
+        }
+
+        .zazu .left .adj .btn {
+            margin-top: 200px;
+        }
+
+        .zazu div img {
+            margin-top: 70px;
+        }
+
+
+
+        .blue .right .adj {
+            display: inline;
+        }
+
+        .blue .right .adj h5 {
+            font-size: .75rem;
+            margin-top: 75px;
+        }
+
+        .blue .right .adj .btn {
+            margin-top: 50px;
+        }
+
+        .blue div img {
+            margin-top: 70px;
+        }
+
+
+
+        .kiwi .left .adj {
+            display: inline;
+        }
+
+        .kiwi .left .adj h5 {
+            font-size: .75rem;
+            margin-top: -175px;
+            margin-bottom: 100px;
+        }
+
+        .kiwi .left .adj .btn {
+            margin-top: 200px;
+        }
+
+        .kiwi div img {
+            margin-top: 70px;
+        }
+
+
+
+        .skit .right .adj {
+            display: inline;
+        }
+
+        .skit .right .adj h5 {
+            font-size: .75rem;
+            margin-top: 75px;
+        }
+
+        .skit .right .adj .btn {
+            margin-top: 50px;
+        }
+
+        .skit div img {
+            margin-top: 70px;
+        }
+
+
+
+        .opal .left .adj {
+            display: inline;
+        }
+
+        .opal .left .adj h5 {
+            font-size: .75rem;
+            margin-top: -175px;
+            margin-bottom: 100px;
+        }
+
+        .opal .left .adj .btn {
+            margin-top: 200px;
+        }
+
+        .opal div img {
+            margin-top: 70px;
+        }
+
+
+
+        .jasper .right .adj {
+            display: inline;
+        }
+
+        .jasper .right .adj h5 {
+            font-size: .75rem;
+            margin-top: 75px;
+        }
+
+        .jasper .right .adj .btn {
+            margin-top: 50px;
+        }
+
+        .jasper div img {
+            margin-top: 70px;
+        }
+
+
+
+        .caly .left .adj {
+            display: inline;
+        }
+
+        .caly .left .adj h5 {
+            font-size: .75rem;
+            margin-top: -175px;
+            margin-bottom: 100px;
+        }
+
+        .caly .left .adj .btn {
+            margin-top: 200px;
+        }
+
+        .caly div img {
+            margin-top: 70px;
+        }
+
+
+
+        .hou .right .adj {
+            display: inline;
+        }
+
+        .hou .right .adj h5 {
+            font-size: .75rem;
+            margin-top: 75px;
+        }
+
+        .hou .right .adj .btn {
+            margin-top: 50px;
+        }
+
+        .hou div img {
+            margin-top: 70px;
+        }
+
+
+
+        .donut .left .adj {
+            display: inline;
+        }
+
+        .donut .left .adj h5 {
+            font-size: .75rem;
+            margin-top: -175px;
+            margin-bottom: 100px;
+        }
+
+        .donut .left .adj .btn {
+            margin-top: 200px;
+        }
+
+        .donut div img {
+            margin-top: 70px;
+        }
+    
+        nav ul {
+            gap: 2rem;
+            padding-left: 45px;
+            padding-right: 0px;
+        }
+    
+        nav ul a {
+            font-size: 1.25rem;
+        }
+
+        .foot {
+            justify-content: space-between;
+        }
+    
+        .foot .contactfoot {
+            margin-right: 0px;
+        }
+
+        .foot p {
+            font-size: .5rem;
+        }
     }
